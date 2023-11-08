@@ -11,7 +11,6 @@ from utility import resolution
 from client.networking import Networking
 from screens.abc_screen import Screen
 from game_class import *
-from setting_class import *
 from screens.start_screen import StartScreen
 
 
@@ -187,8 +186,8 @@ class AchieveScreen2(Screen):
                     self.next_screen = StartScreen
                     self.is_running = False
                 elif event.ui_element == self.before_button:
-                    from screens.achievement_screen import AchieveScreen
-                    self.next_screen = AchieveScreen
+                    from screens.achievement_screen import Achievement
+                    self.next_screen = Achievement
                     self.is_running = False
 
     def run(self, events: list[Event]) -> bool:

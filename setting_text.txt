@@ -1,2 +1,2 @@
-computer_number:4
-user_name:asdf
+computer_number:3
+user_name:soheun

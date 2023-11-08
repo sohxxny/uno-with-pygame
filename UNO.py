@@ -23,7 +23,7 @@ from screens.client_lobby import ClientLobby
 from tmp_game_screen import GameScreen
 from network_client import Client
 from network_server import Server
-from screens.achievement_screen import AchieveScreen
+from screens.achievement_screen import Achievement
 from screens.achievement_screen2 import AchieveScreen2
 from screens.character_screen import CharacterScreen
 # from chatgpt import CharacterScreen
@@ -96,19 +96,7 @@ def main():
     fps = 120
     clock = pygame.time.Clock()
 
-<<<<<<< HEAD
-    current_screen = MainScreen(screen, manager, networking)
-=======
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    current_screen = LobbyScreen(screen, manager, networking)
-=======
-    current_screen = MainScreen(screen, manager, networking)
->>>>>>> 746afcb58dafea8cf1b4937e5666e55adb1cd098
-=======
     current_screen = StartScreen(screen, manager, networking)
->>>>>>> Stashed changes
->>>>>>> b5cdf55720cc49b66354c249e77ebe5cd8de28f2
 
     # 인증 부분
     '''

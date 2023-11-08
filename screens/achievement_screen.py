@@ -10,7 +10,6 @@ from pygame_gui.elements.ui_button import UIButton
 from utility import resolution
 from client.networking import Networking
 from screens.abc_screen import Screen
-<<<<<<< Updated upstream
 # from game_logic import load_achievements
 from game_class import *
 
@@ -22,13 +21,6 @@ ob = GameInit()
 
 
 class Achievement(Screen):
-=======
-from game_class import *
-from setting_class import *
-
-
-class AchieveScreen(Screen):
->>>>>>> Stashed changes
     def __init__(self, surface: Surface, manager: pygame_gui.UIManager, networking: Networking):
         super().__init__(surface, manager, networking)
 

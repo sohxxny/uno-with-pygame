@@ -16,7 +16,7 @@ class CardLoad:
         self.background = BackGround()  # BackGround 객체 생성
         self.current_card_pos = self.opendeck_image_pos()  # currentCard(오픈 카드)일 때 이미지 위치
         self.deck_pos = self.deck_image_pos()    # 덱 좌표
-        self.speed = 5  # 이동 속도
+        self.speed = 10  # 이동 속도
         self.spacing = 15   # myboard와 카드와의 간격
         self.cards_per_row = 12  # myboard에서 한 줄당 카드의 수
         self.x_interval = self.background.card_pos(self.background.my_board_image.get_rect().size,
